@@ -8,3 +8,12 @@ h1 {
     color: black;
 }
 
+.square {
+    background-color: #d7c0af;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: brown;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
