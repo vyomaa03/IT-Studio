@@ -8,6 +8,11 @@ h1 {
     color: black;
 }
 
+img {
+    display: inline;
+    width: auto;
+    height: auto;
+}
 .square {
     background-color: #d7c0af;
     border-style: dashed;
