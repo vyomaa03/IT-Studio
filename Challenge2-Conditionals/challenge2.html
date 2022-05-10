@@ -10,6 +10,8 @@
 <body>
     <h1>Challenge 2</h1>
     <h2>How much money does the food container cost exactly?</h2>
+    <h3>Now that you have calculated the volume and the surface area of the container on the ship,
+         time for you to select the right answers which fix the errors in the block of the code and fill in the correct blanks to compelete the code. </h3>
     <div id="Challenge-2">
         <pre> import java.util.Scanner; 
 
@@ -21,62 +23,61 @@
             
                   int numDollars = (cents / 100) % 100;
                   int numQuarters = (cents % 100) / 25;
-                  int numDimes    = (cents % 25) / 10;
+                  int numDimes    = (cents % 25) / 10
                   int numNickels  = (((cents % 25) % 10) / 5);
-                  int numPennies  = (((cents % 25) % 10) % 5);
+                  int numPennies  = (((cents % 25) % 10) % 5)
             
-                  // no change
+                  
                   if (cents == 0) {
                      System.out.println("No change");
                   }
                   
-                  // dollars
+                  
                   if (numDollars < 2 && numDollars == 1) {
                      System.out.println(numDollars + " Dollar");
                   }
                   
-                  else if (numDollars >= 2) {
-                      System.out.println(numDollars + " Dollars");
+                  else if (numDollars => 2) {
+                      System.out.println(numDollars + Dollars");
                   }
                   
-                  // quarters
-                  if (numQuarters < 2 && numQuarters == 1) {
-                      System.out.println(numQuarters + " Quarter");
+                  
+                  if else (numQuarters < 2 && numQuarters == 1) {
+                      System.outprintln(numQuarters + " Quarter");
                   }
                   
                   else if (numQuarters >= 2) {
-                      System.out.println(numQuarters + " Quarters");
-                  }
+                      System.out.println(numQuarters + " Quarters")
                   
-                  // dimes      
-                  if (numDimes < 2 && numDimes == 1) {
-                      System.out.println(numDimes + " Dime");
+                  
+                   
+                  if (numDimes < 2 !& numDimes == 1) {
+                      
                   }
                   
                   else if (numDimes >= 2) {
                       System.out.println(numDimes + " Dimes");
                   }
                   
-                  // nickels      
-                  if (numNickels < 2 && numNickels == 1) {
+                      
+                  if (numNickel < 2 && numNickels == 1) {
                       System.out.println(numNickels + " Nickel");
                   }
                   
-                  else if (numNickels >= 2) {
+                  else if (numNickels <= 2) {
                       System.out.println(numNickels + " Nickels");
                   }
                   
-                  // pennies      
-                  if (numPennies < 2 && numPennies == 1) {
-                      System.out.println(numPennies + " Penny");
-                  }
                   
-                  else if (numPennies >= 2) {
-                      System.out.println(numPennies + " Pennies");
                   }
                }
             }</pre>
     </div>
-   
+    <div class="buttons">
+        <a href="correct_answer.html">Answer 1</a>
+        <a href="wrong_answer.html">Answer 2</a>
+        <a href="wrong_answer.html">Answer 3</a>
+        <a href="wrong_answer.html">Answer 4</a>
+    </div>
 </body>
 </html>
