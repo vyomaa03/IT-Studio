@@ -10,8 +10,8 @@ h1 {
 
 img {
     display: inline;
-    width: auto;
-    height: auto;
+    width: 100px;
+    height: 150px;
 }
 .square {
     background-color: #d7c0af;
