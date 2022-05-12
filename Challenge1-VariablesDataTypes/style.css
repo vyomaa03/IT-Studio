@@ -3,5 +3,16 @@ html {
 }
 h1 {
     text-align: center; 
+    color: black;
+}
+
+h2, h5 {
     color: #aa7c60;
+}
+
+#container {
+    border-width: 20px ; /* why is the line not working? */
+    border-color: black; /* or this line */
+    background-color: #e9ded6;
+    
 }
