@@ -1,0 +1,8 @@
+ 
+ Just goign to add my answers here so i can work with them - vyomaa
+ 
+ Answer 1:
+ System.out.printf("Volume: %.1f cubic inches\n", cVol);
+ System.out.printf("Surface area: %.1f square inches\n", cArea);
+
+ 

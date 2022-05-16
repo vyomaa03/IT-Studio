@@ -10,14 +10,14 @@ h1 {
 
 img {
     display: inline;
-    width: auto;
-    height: auto;
+    width: 100px;
+    height: 150px;
 }
 .square {
     background-color: #d7c0af;
     border-style: dashed;
     border-width: 2px;
-    border-color: brown;
+    border-color: white;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
