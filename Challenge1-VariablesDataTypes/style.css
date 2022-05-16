@@ -7,9 +7,17 @@ h1 {
 }
 
 h2, h5 {
-    color: #aa7c60;
+    color: black;
+    text-align: center;
+}
+a {
+    align-items: center;
 }
 
+img {
+    width: auto;
+    height: auto;
+}
 #container {
     border-width: 20px ; /* why is the line not working? */
     border-color: black; /* or this line */
