@@ -9,13 +9,13 @@
 </head>
 <body>
     <h2 id="logo">Chicken Ship Game</h2>
-    <img id="img1"src="../3-chicken-ship-will-bullas.jpeg">
     <h3>Challenge 1</h3>
-    <h4>How much food can the chicken carry on board?</h4>
-    <h5>Traversing the high seas comes with its own set of challenges. One of which is how much supplies chicken must carry!
+    <div class="flexbox-container">
+        <h4>How much food can the chicken carry on board?</h4>
+        <h5>Traversing the high seas comes with its own set of challenges. One of which is how much supplies chicken must carry!
         Complete the code below by selecting the right answer to find the volume and surface area of the containers on the ship.
-    </h5>
-    <div id="container">
+        </h5>
+        <div id="container1">
         <pre>import java.util.Scanner; 
         public class LabProgram { 
             public static void main(String[] args) {       
@@ -26,10 +26,10 @@
                 double Area = (2 * Math.PI * r * h) + (2 * Math.PI * Math.pow(r,2));  
                } 
             } </pre>
-    </div>
-    <p>Chose the correct answer for the missing code:</p>
+        </div>
+        <p>Chose the correct answer for the missing code:</p>
 
-    <div class="answer">
+        <div class="answer">
         <pre>
             sc.nextDouble();
             sc.nextDouble();
@@ -37,12 +37,12 @@
             System.out.printf("Volume: %.1f cubic inches\n", cVol);
             System.out.printf("Surface area: %.1f square inches\n", cArea);
         </pre>
-    </div> 
-    <div class="buttons">
+        </div> 
+        <div class="buttons">
        <a href="correct_answer.html">Answer 1</a>
-    </div>
+        </div>
 
-    <div class="answer">
+        <div class="answer">
         <pre>
             sc.nextInt();
             sc.nextInt();
@@ -50,11 +50,11 @@
             System.out.print("Volume: %.1f cubic inches\n", cVol);
             System.out.print("Surface area: %.1f square inches\n", cArea);
         </pre>
-    </div>
-    <div class="buttons">
+        </div>
+        <div class="buttons">
        <a href="wrong_answer.html">Answer 2</a>
-    </div>
-    <div class="answer">
+        </div>
+        <div class="answer">
         <pre>
             sc.nextDouble();
             sc.nextDouble();
@@ -62,11 +62,11 @@
             System.out.printf("Volume: %1f cubic inches\n", cVol);
             System.out.printf("Surface area: %1f square inches\n", cArea);
         </pre>
-    </div>
-    <div class="buttons">
+        </div>
+        <div class="buttons">
        <a href="wrong_answer.html">Answer 3</a>
-    </div>    
-    <div class="answer">
+        </div>    
+        <div class="answer">
         <pre>
             sc.nextDouble();
             sc.nextDouble();
@@ -74,9 +74,10 @@
             System.out.printf("Volume: %1f cubic inches\n, cVol");
             System.out.printf("Surface area: %1f square inches\n, cArea");
         </pre>
-    </div>
-    <div class="buttons">
+        </div>
+        <div class="buttons">
        <a href="wrong_answer.html">Answer 4</a>
+        </div>
     </div>
 </body>
 </html>
