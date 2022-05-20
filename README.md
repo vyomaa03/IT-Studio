@@ -11,6 +11,3 @@ The site features:
 3. Correct & incorrect pages depending on how the user responds to the challenges
 4. A successful game complete screen
 
-
-link to the website is this:
-file:///Users/vyomaabhaskar/IT-Studio/IT-Studio/home.html
