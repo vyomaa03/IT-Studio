@@ -13,19 +13,19 @@
     <h3>Now that you have calculated the volume and the surface area of the container on the ship,
          time for you to select the right answers which fix the errors in the block of the code and fill in the correct blanks to compelete the code. </h3>
     <div id="Challenge-2">
-        <pre> import java.util.Scanner; 
+        <pre>import java.util.Scanner; 
 
             public class LabProgram {
                public static void main(String[] args) {
-                  Scanner scnr = new Scanner(System.in);
+                  
                   
                   int cents = scnr.nextInt();
             
                   int numDollars = (cents / 100) % 100;
                   int numQuarters = (cents % 100) / 25;
-                  int numDimes    = (cents % 25) / 10
+                  int numDimes    = (cents % 25) / 10;
                   int numNickels  = (((cents % 25) % 10) / 5);
-                  int numPennies  = (((cents % 25) % 10) % 5)
+                  int numPennies  = (((cents % 25) % 10) % 5);
             
                   
                   if (cents == 0) {
@@ -34,45 +34,329 @@
                   
                   
                   if (numDollars < 2 && numDollars == 1) {
-                     System.out.println(numDollars + " Dollar");
+                     
                   }
                   
-                  else if (numDollars => 2) {
-                      System.out.println(numDollars + Dollars");
+                  else if (numDollars >= 2) {
+                      System.out.println(numDollars + " Dollars");
                   }
                   
                   
-                  if else (numQuarters < 2 && numQuarters == 1) {
-                      System.outprintln(numQuarters + " Quarter");
+                  if (numQuarters < 2 && numQuarters == 1) {
+                      System.out.println(numQuarters + " Quarter");
                   }
                   
                   else if (numQuarters >= 2) {
-                      System.out.println(numQuarters + " Quarters")
+                      System.out.println(numQuarters + " Quarters");
+                  }
                   
-                  
-                   
-                  if (numDimes < 2 !& numDimes == 1) {
-                      
+                        
+                  if (numDimes < 2 ) {
+                      System.out.println(numDimes + " Dime");
                   }
                   
                   else if (numDimes >= 2) {
-                      System.out.println(numDimes + " Dimes");
+                      System.out.println();
                   }
                   
-                      
-                  if (numNickel < 2 && numNickels = 1) {
+                       
+                  if (numNickels < 2 && numNickels == 1) {
                       System.out.println(numNickels + " Nickel");
                   }
                   
-                  else if (numNickels <= 2) {
+                  else if (numNickels >= 2) {
                       System.out.println(numNickels + " Nickels");
                   }
                   
-                  
+    
                   }
                }
-            }</pre>
+            }
+             </pre>
+        </div>
+        <p>Chose the correct answer for the missing code:</p>
     
+        <div class="answer">
+            <pre>
+                import java.util.Scanner; 
+
+                public class LabProgram {
+                    public static void main(String[] args) {
+                        Scanner scnr = new Scanner(System.in);
+                        
+                        int cents = scnr.nextInt();
+
+                        int numDollars = (cents / 100) % 100;
+                        int numQuarters = (cents % 100) / 25;
+                        int numDimes    = (cents % 25) / 10;
+                        int numNickels  = (((cents % 25) % 10) / 5);
+                        int numPennies  = (((cents % 25) % 10) % 5);
+
+                       
+                        if (cents == 0) {
+                            System.out.println("No change");
+                        }
+                        
+                        
+                        if (numDollars < 2 && numDollars == 1) {
+                            System.out.println(numDollars + " Dollar");
+                        }
+                        
+                        else if (numDollars >= 2) {
+                            System.out.println(numDollars + " Dollars");
+                        }
+                        
+                        
+                        if (numQuarters < 2 && numQuarters == 1) {
+                            System.out.println(numQuarters + " Quarter");
+                        }
+                        
+                        else if (numQuarters >= 2) {
+                            System.out.println(numQuarters + " Quarters");
+                        }
+                        
+                             
+                        if (numDimes < 2 && numDimes == 1) {
+                            System.out.println(numDimes + " Dime");
+                        }
+                        
+                        else if (numDimes >= 2) {
+                            System.out.println(numDimes + " Dimes");
+                        }
+                        
+                             
+                        if (numNickels < 2 && numNickels == 1) {
+                            System.out.println(numNickels + " Nickel");
+                        }
+                        
+                        else if (numNickels >= 2) {
+                            System.out.println(numNickels + " Nickels");
+                        }
+                        
+                              
+                        if (numPennies < 2 && numPennies == 1) {
+                            System.out.println(numPennies + " Penny");
+                        }
+                        
+                        else if (numPennies >= 2) {
+                            System.out.println(numPennies + " Pennies");
+                        }
+                    }
+                }
+            </pre>
+        </div> 
+        <div class="buttons">
+           <a href="correct_answer.html">Answer 1</a>
+        </div>
+        
+        <div class="answer">
+            <pre>
+                import java.util.Scanner; 
+
+                public class LabProgram {
+                    public static void main(String[] args) {
+                        
+                        
+                        int cents = scnr.nextInt();
+
+                        int numDollars = (cents / 100) % 100;
+                        int numQuarters = (cents % 100) / 25;
+                        int numDimes    = (cents % 25) / 10;
+                        int numNickels  = (((cents % 25) % 10) / 5);
+                        int numPennies  = (((cents % 25) % 10) % 5);
+
+                       
+                        if (cents == 0) {
+                            System.out.println("No change");
+                        }
+                        
+                        
+                        if (numDollars < 2 && numDollars == 1) {
+                            System.out.println(numDollars + " Dollar");
+                        }
+                        
+                        else if (numDollars >= 2) {
+                            System.out.println(numDollars + " Dollars");
+                        }
+                        
+                        
+                        if (numQuarters < 2 && numQuarters == 1) {
+                            System.out.println(numQuarters + " Quarter");
+                        }
+                        
+                        else if (numQuarters >= 2) {
+                            System.out.println(numQuarters + " Quarters");
+                        }
+                        
+                             
+                        if (numDimes < 2 ) {
+                            System.out.println(numDimes + " Dime");
+                        }
+                        
+                        else if (numDimes >= 2) {
+                            System.out.println(numDimes + " Dimes");
+                        }
+                        
+                             
+                        if (numNickels < 2 && numNickels == 1) {
+                            System.out.println(numNickels + " Nickel");
+                        }
+                        
+                        else if (numNickels >= 2) {
+                            System.out.println(numNickels + " Nickels");
+                        }
+                        
+                              
+                        if (numPennies < 2 && numPennies == 1) {
+                            System.out.println(numPennies + " Penny");
+                        }
+                        
+                        
+                        }
+                    }
+                }
+            </pre>
+        </div>
+        <div class="buttons">
+           <a href="wrong_answer.html">Answer 2</a>
+        </div>
+        <div class="answer">
+            <pre>
+                import java.util.Scanner; 
+
+                public class LabProgram {
+                    public static void main(String[] args) {
+                        
+                        
+                        int cents = scnr.nextInt();
+
+                        int numDollars = (cents / 100) % 100;
+                        int numQuarters = (cents % 100) / 25;
+                        int numDimes    = (cents % 25) / 10;
+                        int numNickels  = (((cents % 25) % 10) / 5);
+                        int numPennies  = (((cents % 25) % 10) % 5);
+
+                       
+                        if (cents == 0) {
+                            System.out.println("No change");
+                        }
+                        
+                        
+                        if (numDollars < 2 && numDollars == 1) {
+                            
+                        }
+                        
+                        else if (numDollars >= 2) {
+                            System.out.println(numDollars + " Dollars");
+                        }
+                        
+                        
+                        if (numQuarters < 2 && numQuarters == 1) {
+                            System.out.println(numQuarters + " Quarter");
+                        }
+                        
+                        else if (numQuarters >= 2) {
+                            System.out.println(numQuarters + " Quarters");
+                        }
+                        
+                             
+                        if (numDimes < 2 && numDimes == 1) {
+                            System.out.println(numDimes + " Dime");
+                        }
+                        
+                        else if (numDimes >= 2) {
+                            System.out.println();
+                        }
+                        
+                             
+                        if (numNickels < 2 && numNickels == 1) {
+                            System.out.println(numNickels + " Nickel");
+                        }
+                        
+                        else if (numNickels >= 2) {
+                            System.out.println(numNickels + " Nickels");
+                        }
+                        
+                        }
+                    }
+                }
+            </pre>
+        </div>
+        <div class="buttons">
+           <a href="wrong_answer.html">Answer 3</a>
+        </div>    
+        <div class="answer">
+            <pre>
+                import java.util.Scanner; 
+
+                public class LabProgram {
+                    public static void main(String[] args) {
+                        
+                        
+                        int cents = scnr.nextInt();
+
+                        int numDollars = (cents / 100) % 100;
+                        int numQuarters = (cents % 100) / 25;
+                        int numDimes    = (cents % 25) / 10;
+                        int numNickels  = (((cents % 25) % 10) / 5);
+                        int numPennies  = (((cents % 25) % 10) % 5);
+
+                       
+                        if (cents == 0) {
+                            System.out.println("No change");
+                        }
+                        
+                        
+                        if (numDollars < 2 && numDollars == 1) {
+                            System.out.println(numDollars + " Dollar");
+                        }
+                        
+                        else if (numDollars >= 2) {
+                            System.out.println(numDollars + " Dollars");
+                        }
+                        
+                        
+                        if (numQuarters < 2 && numQuarters == 1) {
+                            System.out.println(numQuarters + " Quarter");
+                        }
+                        
+                        else if (numQuarters >= 2) {
+                            System.out.println(numQuarters + " Quarters");
+                        }
+                        
+                             
+                        if (numDimes < 2 && numDimes == 1) {
+                            System.out.println(numDimes + " Dime");
+                        }
+                        
+                        else if (numDimes >= 2) {
+                            System.out.println();
+                        }
+                        
+                             
+                        if (numNickels < 2 && numNickels == 1) {
+                            System.out.println(numNickels + " Nickel");
+                        }
+                        
+                        else if (numNickels >= 2) {
+                            System.out.println(numNickels + " Nickels");
+                        }
+                        
+                              
+                        
+                        
+                        else if (numPennies >= 2) {
+                            System.out.println(numPennies + " Pennies");
+                        }
+                    }
+                }
+            </pre>
+        </div>
+        <div class="buttons">
+           <a href="wrong_answer.html">Answer 4</a>
+        </div>
+    </body>
+    </html>
     <div class="buttons">
         <a href="correct_answer.html">Answer 1</a>
         <a href="wrong_answer.html">Answer 2</a>
