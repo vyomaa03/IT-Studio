@@ -1,7 +1,25 @@
 html {
-    background-color: rgb(246, 176, 90);
+    background-color: bisque;
 }
 h1 {
     text-align: center; 
-    color: #c08d6d;
+    color: black;
+}
+h2, h5 {
+    color: black;
+    text-align: center;
+}
+a {
+    align-items: center;
+}
+
+img {
+    width: auto;
+    height: auto;
+}
+#container {
+    border-width: 20px ; 
+    border-color: black; 
+    background-color: #e9ded6;
+    
 }
