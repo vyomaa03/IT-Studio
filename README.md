@@ -1,6 +1,6 @@
 # A Chicken Ship Adventure!
 ### IT Studio 1 - Educational Game
-#### Vyomaa, Ahra & Vince
+#### Vyomaa, Arha & Vince
 
 Successfully navigate the waters of this Java coding multi-choice challenge and safely reach the beans!  
 ... chickens may be involved.
