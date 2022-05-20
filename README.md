@@ -11,3 +11,5 @@ The site features:
 3. Correct & incorrect pages depending on how the user responds to the challenges
 4. A successful game complete screen
 
+This is the link for the game: 
+https://vyomaa03.github.io/IT-Studio/
