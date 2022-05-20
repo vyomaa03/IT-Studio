@@ -1,0 +1,26 @@
+html {
+    background-color: bisque;
+}
+h1 {
+    text-align: center; 
+    color: black;
+}
+
+h2, h5 {
+    color: black;
+    text-align: center;
+}
+a {
+    align-items: center;
+}
+
+img {
+    width: auto;
+    height: auto;
+}
+#container {
+    border-width: 20px ; /* why is the line not working? */
+    border-color: black; /* or this line */
+    background-color: #e9ded6;
+    
+}
