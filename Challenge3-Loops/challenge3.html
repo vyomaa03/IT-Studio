@@ -4,9 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Challenge 3</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <h3>Challenge 3</h3>
+    <h4>How many stars do we use to navigate?</h4>
+    <h5> Need to write smth here lol</h5>
+    <div id="container">
+        <pre> import java.util.Scanner;
+            public class IntHistogram {
+               public static void main(String[] args) {
+                  Scanner scnr = new Scanner(System.in);
+                  int numAsterisk;  // Number of asterisks to print
+                  int i;            // Loop counter
+            
+                  numAsterisk = 0;
+            
+                  while (numAsterisk >= 0) {
+                     System.out.print("Enter an integer (negative to quit): ");
+                     numAsterisk = scnr.nextInt();
+            
+                     if (numAsterisk >= 0) {
+                        System.out.println("Depicted graphically:");
+                        for (i = 1; i <= numAsterisk; ++i) {
+                           System.out.print("*");
+                        }
+                        System.out.println("\n");
+                     }
+                  }
+            
+                  System.out.println("Goodbye.");
+               }
+            }
+        </pre>
+    </div>
+    <p>Chose the correct answer:</p>
+
+    <div class="answer">
+        <pre>
+        </pre>
+    </div> 
+    <div class="buttons">
+       <a href="correct_answer.html">Answer 1</a>
+    </div>
+
+    <div class="answer">
+        <pre></pre>
+    </div>
+    <div class="buttons">
+       <a href="wrong_answer.html">Answer 2</a>
+    </div>
+    <div class="answer">
+        <pre></pre>
+    </div>
+    <div class="buttons">
+       <a href="wrong_answer.html">Answer 3</a>
+    </div>    
+    <div class="answer">
+        <pre></pre>
+    </div>
+    <div class="buttons">
+       <a href="wrong_answer.html">Answer 4</a>
+    </div>
 </body>
 </html>
