@@ -60,7 +60,7 @@ public class MinCostChange {
    }
 }
 Answer for Challenge 3:
-
+*******x
 
 Answer for Challenge 4:
 Challenge4 - C
