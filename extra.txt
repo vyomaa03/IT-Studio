@@ -8,68 +8,40 @@
  Answer for Challenge 2:
 import java.util.Scanner; 
 
-public class LabProgram {
+public class MinCostChange {
    public static void main(String[] args) {
       Scanner scnr = new Scanner(System.in);
       
       int cents = scnr.nextInt();
 
-      int numDollars = (cents / 100) % 100;
-      int numQuarters = (cents % 100) / 25;
-      int numDimes    = (cents % 25) / 10;
-      int numNickels  = (((cents % 25) % 10) / 5);
-      int numPennies  = (((cents % 25) % 10) % 5);
-
-      // no change
+      int dollars = (cents / 100) % 100;
+      int quarters = (cents % 100) / 25;
+     
       if (cents == 0) {
          System.out.println("No change");
       }
-      
-      // dollars
-      if (numDollars < 2 && numDollars == 1) {
-         System.out.println(numDollars + " Dollar");
+     
+      if (dollars < 2 && dollars == 1) {
+         System.out.println(dollars + " Dollar");
       }
       
-      else if (numDollars >= 2) {
-          System.out.println(numDollars + " Dollars");
+      else if (dollars >= 2) {
+          System.out.println(dollars + " Dollars");
+      }
+      else {
+          System.out.println("Not enough dollars!!");
+      }
+     
+      if (quarters < 2 && quarters == 1) {
+          System.out.println(quarters + " Quarter");
       }
       
-      // quarters
-      if (numQuarters < 2 && numQuarters == 1) {
-          System.out.println(numQuarters + " Quarter");
+      else if (quarters >= 2) {
+          System.out.println(quarters + " Quarters");
       }
-      
-      else if (numQuarters >= 2) {
-          System.out.println(numQuarters + " Quarters");
-      }
-      
-      // dimes      
-      if (numDimes < 2 && numDimes == 1) {
-          System.out.println(numDimes + " Dime");
-      }
-      
-      else if (numDimes >= 2) {
-          System.out.println(numDimes + " Dimes");
-      }
-      
-      // nickels      
-      if (numNickels < 2 && numNickels == 1) {
-          System.out.println(numNickels + " Nickel");
-      }
-      
-      else if (numNickels >= 2) {
-          System.out.println(numNickels + " Nickels");
-      }
-      
-      // pennies      
-      if (numPennies < 2 && numPennies == 1) {
-          System.out.println(numPennies + " Penny");
-      }
-      
-      else if (numPennies >= 2) {
-          System.out.println(numPennies + " Pennies");
+      else {
+          System.out.println("You got enough cash!");
       }
    }
 }
-
 Answer for Challenge 3:

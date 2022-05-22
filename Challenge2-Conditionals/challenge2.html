@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="background: url(https://images.rawpixel.com/image_1300/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdXB3azYyMDY5NTg5LXdpa2ltZWRpYS1pbWFnZS1rb3dmNzRldy5qcGc.jpg); background-repeat:no-repeat; background-size: cover;">
+<html lang="en" style="background: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MjA2NDkzMC13aWtpbWVkaWEtaW1hZ2Uta293ZmRrc2QuanBn.jpg); background-repeat:no-repeat; background-size: cover;">
 <head>
     
     <meta charset="UTF-8">
@@ -16,8 +16,8 @@
         Buuuuut if you got time, there’s something we’d like you to take a look at.<br>
         Oh you do have time! Wonderful!<br>
         So we just bought what we needed… but we’ve got the sneaking suspicion the sheep at port were being a bit susheepish.<br>
-        We chickens aren’t so great with the whole uh… coinage thing.<br>
-        Corn all looks the same so why are coins different?<br>
+        We chickens aren’t so great with the whole uh… coinage and cash thing.<br>
+        Corn all looks the same so why are coins and cash different?<br>
         <br>
         Can you check the conditionals in our code that we used at the market? We chickens are a trusting lot!</h3>
      </div>
@@ -25,49 +25,39 @@
     <div id="Challenge-2">
         <pre>import java.util.Scanner; 
 
-            public class MinCoinsChange{
+            public class MinCostChange {
                public static void main(String[] args) {
                   
                   
                   int cents = scnr.nextInt();
             
                   int dollars = (cents / 100) % 100;
-                  int quarters = (cents % 100) / 25;
-                  int nickels  = (((cents % 25) % 10) / 5);
-                  int pennies  = (((cents % 25) % 10) % 5);
-            
-                  
+                  int quarters = ;
+                 
                   if (cents == 0) {
                      System.out.println("No change");
                   }
-                  
-                  
+                 
                   if (dollars < 2 && dollars == 1) {
                      
                   }
                   
-                  else if (dollars >= 2) {
+                  else if () {
                       System.out.println(dollars + " Dollars");
                   }
-                  
-                  
+                  else {
+                      System.out.println("Not enough dollars!!");
+                  }
+                 
                   if (quarters < 2 && quarters == 1) {
-                      System.out.println(quarters + " Quarter");
+                      System.out.println( + " Quarter");
                   }
                   
-                  else if (quarters >= 2) {
+                  else if (quarters  2) {
                       System.out.println(quarters + " Quarters");
                   }
-
-                  if (nickels < 2 && nickels == 1) {
-                      System.out.println(nickels + " Nickel");
-                  }
-                  
-                  else if (nickels >= 2) {
-                      System.out.println(nickels + " Nickels");
-                  }
-                  
-    
+                  else {
+                      System.out.println("You got enough cash!");
                   }
                }
             }
@@ -79,7 +69,7 @@
             <pre>
                 import java.util.Scanner; 
 
-                public class MinCoinsChange {
+                    public class MinCostChange {
                     public static void main(String[] args) {
                         
                         
@@ -87,46 +77,31 @@
 
                         int dollars = (cents / 100) % 100;
                         int quarters = (cents % 100) / 25;
-                        int nickels  = (((cents % 25) % 10) / 5);
-                        int pennies  = (((cents % 25) % 10) % 5);
-
-                       
+                        
                         if (cents == 0) {
                             System.out.println("No change");
                         }
                         
-                        
                         if (dollars < 2 && dollars == 1) {
-                            System.out.println(dollars + " Dollar");
+                            
                         }
                         
                         else if (dollars >= 2) {
                             System.out.println(dollars + " Dollars");
                         }
-                        
+                        else {
+                            System.out.println("Not enough dollars!!");
+                        }
                         
                         if (quarters < 2 && quarters == 1) {
-                            System.out.println(quarters + " Quarter");
+                            System.out.println( + " Quarter");
                         }
                         
                         else if (quarters >= 2) {
                             System.out.println(quarters + " Quarters");
                         }
-                             
-                        if (nickels < 2 && nickels == 1) {
-                            System.out.println(nickels + " Nickel");
-                        }
-                        
-                        else if (nickels >= 2) {
-                            System.out.println(nickels + " Nickels");
-                        }
-                        
-                              
-                        if (pennies < 2 && pennies == 1) {
-                            System.out.println(pennies + " Penny");
-                        }
-                        
-                        
+                        else {
+                            System.out.println("You got enough cash!");
                         }
                     }
                 }
@@ -139,7 +114,7 @@
             <pre>
                 import java.util.Scanner; 
 
-                public class MinCoinsChange {
+                    public class MinCostChange {
                     public static void main(String[] args) {
                         Scanner scnr = new Scanner(System.in);
                         
@@ -147,14 +122,10 @@
 
                         int dollars = (cents / 100) % 100;
                         int quarters = (cents % 100) / 25;
-                        int nickels  = (((cents % 25) % 10) / 5);
-                        int pennies  = (((cents % 25) % 10) % 5);
-
-                       
+                        
                         if (cents == 0) {
                             System.out.println("No change");
                         }
-                        
                         
                         if (dollars < 2 && dollars == 1) {
                             System.out.println(dollars + " Dollar");
@@ -163,7 +134,9 @@
                         else if (dollars >= 2) {
                             System.out.println(dollars + " Dollars");
                         }
-                        
+                        else {
+                            System.out.println("Not enough dollars!!");
+                        }
                         
                         if (quarters < 2 && quarters == 1) {
                             System.out.println(quarters + " Quarter");
@@ -172,22 +145,8 @@
                         else if (quarters >= 2) {
                             System.out.println(quarters + " Quarters");
                         }
-                           
-                        if (nickels < 2 && nickels == 1) {
-                            System.out.println(nickels + " Nickel");
-                        }
-                        
-                        else if (nickels >= 2) {
-                            System.out.println(nickels + " Nickels");
-                        }
-                        
-                              
-                        if (pennies < 2 && pennies == 1) {
-                            System.out.println(pennies + " Penny");
-                        }
-                        
-                        else if (pennies >= 2) {
-                            System.out.println(pennies + " Pennies");
+                        else {
+                            System.out.println("You got enough cash!");
                         }
                     }
                 }
@@ -200,22 +159,18 @@
             <pre>
                 import java.util.Scanner; 
 
-                public class MinCoinsChange {
+                    public class MinCostChange {
                     public static void main(String[] args) {
-                        
+                        Scanner scnr = new Scanner(System.in);
                         
                         int cents = scnr.nextInt();
 
                         int dollars = (cents / 100) % 100;
-                        int quarters = (cents % 100) / 25;
-                        int nickels  = (((cents % 25) % 10) / 5);
-                        int pennies  = (((cents % 25) % 10) % 5);
-
-                       
+                        int quarters = () / 25;
+                        
                         if (cents == 0) {
                             System.out.println("No change");
                         }
-                        
                         
                         if (dollars < 2 && dollars == 1) {
                             
@@ -224,27 +179,23 @@
                         else if (dollars >= 2) {
                             System.out.println(dollars + " Dollars");
                         }
-                        
+                        else {
+                            System.out.println("Not enough dollars!!");
+                        }
                         
                         if (quarters < 2 && quarters == 1) {
                             System.out.println(quarters + " Quarter");
                         }
                         
-                        else if (quarters >= 2) {
+                        else if (quarters 2) {
                             System.out.println(quarters + " Quarters");
                         }
-
-                        if (nickels < 2 && nickels == 1) {
-                            System.out.println(nickels + " Nickel");
-                        }
-                        
-                        else if (nickels >= 2) {
-                            System.out.println(nickels + " Nickels");
-                        }
-                        
+                        else {
+                            System.out.println("You got enough cash!");
                         }
                     }
                 }
+                
             </pre>
         </div>
         <div class="buttons">
@@ -254,31 +205,29 @@
             <pre>
                 import java.util.Scanner; 
 
-                public class MinCoinsChange {
+                    public class MinCostChange {
                     public static void main(String[] args) {
-                        
+                        Scanner scnr = new Scanner(System.in);
                         
                         int cents = scnr.nextInt();
 
                         int dollars = (cents / 100) % 100;
-                        int quarters = (cents % 100) / 25;
-                        int nickels  = (((cents % 25) % 10) / 5);
-                        int pennies  = (((cents % 25) % 10) % 5);
-
-                       
+                        int quarters = () / 25;
+                        
                         if (cents == 0) {
                             System.out.println("No change");
                         }
                         
-                        
                         if (dollars < 2 && dollars == 1) {
-                            System.out.println(dollars + " Dollar");
+                            
                         }
                         
-                        else if (dollars >= 2) {
+                        else if () {
                             System.out.println(dollars + " Dollars");
                         }
-                        
+                        else {
+                            System.out.println("Not enough dollars!!");
+                        }
                         
                         if (quarters < 2 && quarters == 1) {
                             System.out.println(quarters + " Quarter");
@@ -287,20 +236,8 @@
                         else if (quarters >= 2) {
                             System.out.println(quarters + " Quarters");
                         }
-                        
-                        if (nickels < 2 && nickels == 1) {
-                            System.out.println(nickels + " Nickel");
-                        }
-                        
-                        else if (nickels >= 2) {
-                            System.out.println(nickels + " Nickels");
-                        }
-                        
-                              
-                        
-                        
-                        else if (pennies >= 2) {
-                            System.out.println(pennies + " Pennies");
+                        else {
+                            System.out.println("You got enough cash!");
                         }
                     }
                 }
