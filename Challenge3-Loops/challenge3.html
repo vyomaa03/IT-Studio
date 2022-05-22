@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="background: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MjA2NDkzMC13aWtpbWVkaWEtaW1hZ2Uta293ZmRrc2QuanBn.jpg); background-repeat:no-repeat; background-size: cover;">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,72 +9,73 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Cornfall - Chapter 3</h1>
-    <h2>Stellar Conditions</h2>
-    <p>Food identified. Enough supplies so we don’t have a mutiny in the wings…<br>
+   <div class="h1"> <h1>Cornfall - Part 3</h1> </div>
+   <div class="h2"> <h2>Stellar Conditions</h2> </div>
+   <div class="p"> <p>Food identified. Enough supplies so we don’t have a mutiny in the wings…<br>
       You’ve definitely been worth your weight in gold Nav!<br>
       Now onto your primary job- I mean back to work! Night is falling so make use of the stars above!<br>
-      I hope your own code for loops account for them or we’ll run aground in a reef before long.
-   </p>
-    <div id="container">
-        <pre> import java.util.Scanner;
+      I hope your own code for loops account for them or we’ll run aground in a reef before long.  </p>
+  </div>
+     
 
-         public class StarCount {
-            public static void main (String [] args) {
-               Scanner input = new Scanner(System.in);
-               int i;
-               String userWord = input.nextLine();
-               
-               for (i=0 ; i < userWord.length(); i++) {
-                   if (userWord.charAt(i) == 'x') {
-                       System.out.print("x");
-                     break;
-                     
-                   } else {
-                       System.out.print("*");
-                   }
-                   }
-               }
-               
+  <div id="Challenge-3">
+   <pre>import java.util.Scanner;
+
+      public class StarCount {
+         public static void main (String [] args) {
+            Scanner input = new Scanner(System.in);
+            int i;
+            String userWord = input.nextLine();
+            
+            for (i=0 ; i < userWord.length(); i++) {
+                if (userWord.charAt(i) == 'x') {
+                    System.out.print("x");
+                  break;
+                  
+                } else {
+                    System.out.print("*");
+                }
+                }
             }
+            
+         }
         </pre>
-    </div>
+   </div>
     <p>We know that the constillation we need to follow form a line but.. can you map it for us?
        We know from our old endevours that the sequence of letters is "theyXbfxh". map it!
     </p>
 
     <div class="answer">
-        <pre>
-           ***x***
-        </pre>
-    </div> 
-    <div class="buttons">
-       <a href="wrong_answer.html">Answer 1</a>
-    </div>
-
-    <div class="answer">
-        <pre>
-           **X****
-        </pre>
-    </div>
-    <div class="buttons">
-       <a href="wrong_answer.html">Answer 2</a>
-    </div>
-    <div class="answer">
-        <pre>
-           *******
-        </pre>
-    </div>
-    <div class="buttons">
-       <a href="wrong_answer.html">Answer 3</a>
-    </div>    
-    <div class="answer">
-        <pre>
-           *******x
-        </pre>
-    </div>
-    <div class="buttons">
-       <a href="correct_answer.html">Answer 4</a>
-    </div>
+      <pre>
+         ***x***
+      </pre>
+  </div>
+  <div class="buttons">
+     <a href="wrong_answer.html">Answer 1</a>
+  </div>
+  <div class="answer">
+      <pre>
+         **X****
+      </pre>
+  </div> 
+  <div class="buttons">
+     <a href="wrong_answer.html">Answer 2</a>
+  </div>
+  <div class="answer">
+      <pre>
+         *******
+      </pre>
+  </div>
+  <div class="buttons">
+     <a href="wrong_answer.html">Answer 3</a>
+  </div>    
+  <div class="answer">
+      <pre>
+         *******x
+      </pre>
+  </div>
+  <div class="buttons">
+     <a href="correct_answer.html">Answer 4</a>
+  </div>
 </body>
 </html>
