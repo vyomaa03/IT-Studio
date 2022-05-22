@@ -5,19 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>An Array of Cannons</title>
-    <h1>Cornfall - Chapter 4</h1>
-    <h2>An Array of Cannons</h2>
-    <p>BRIGANDS. Off the port side and they’re with the wind!<br>
-    We’ve got to bring our cannons to bear, make sure our gunners belowdecks know which set to load and ready!</p>
-    <p>Below is the code for our cannon arrays on both the starboard and port sides, how many cannons do we have at the ready?</p>
+    <h1>Cornfall - Return fire!</h1>
+    <h2>An Array of some Cannons</h2>
+    <p>We've taken hits! Through sheer coincidence our lookout is reporting that they're sailing the <strong>exact kind of ship!</strong></p>
+    <p>The code for their cannon array is below, if their cannons have fired from their starboard side and hit exactly their exact counterparts on our port but in reverse...<br>
+    i.e. Their 1st Starboard Cannon hit and destroyed our 6th Port cannon, what cannons do we have left to fire with?</p>
     <pre>
         public class Cannons {
             public static void main (String[] args) {
-                int[] cannonStarboard = { 0 , 1 , 0 , 1 , 1 , 0 };
-                int[] cannonPort = { 0 , 1 , 0 , 0 , 1 , 1 };
+                int[] cannonStarboard = { 1 , 1 , 1 , 0 , 0 , 0 };
+                int[] cannonPort = { 1 , 1 , 0 , 0 , 1 , 1 };
                 String cannonStatus;
         
-                System.out.println("Cannon status report!");
+                System.out.println("Cannon status report! Let's sink that Poulterheist!");
                 System.out.print("Starboard Cannons: ");
                 for (int i = 0 ; i < cannonStarboard.length ; ++i) {
                     if (cannonStarboard[i] == 1) {
@@ -44,19 +44,18 @@
             }
         }
     </pre>
-        <div class="buttons">
-        <a href="wrong_answer.html">Four cannons!</a>
+    <div class="buttons">
+        <a href="wrong_answer.html">They got our 1st, 2nd, 5th & 6th! Still got our 3rd & 4th!</a>
             </div>
         <div class="buttons">
-        <a href="wrong_answer.html">Five cannons!</a>
+        <a href="wrong_answer.html">They got our 1st, 2nd & 3rd! Still got our 4th, 5th & 6th!</a>
             </div>
         <div class="buttons">
-        <a href="4A.html">Six cannons!</a>
+        <a href="4D.html">They got our 4th, 5th & 6th! Still got our 1st, 2nd & 3rd!</a>
             </div>
         <div class="buttons">
-        <a href="wrong_answer.html">None! They're all zeroes!</a>
+        <a href="wrong_answer.html">They got our 1st, 3rd, 5th & 6th! Still got our 2nd & 4th!</a>
             </div>
-</head>
 <body>
     
 </body>
