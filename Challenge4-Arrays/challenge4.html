@@ -8,8 +8,41 @@
     <h1>Cornfall - Chapter 4</h1>
     <h2>An Array of Cannons</h2>
     <p>BRIGANDS. Off the port side and they’re with the wind!<br>
-
     We’ve got to bring our cannons to bear, make sure our cannoneers belowdecks know which set to load and ready!</p>
+    <pre>
+        public class Cannons {
+            public static void main (String[] args) {
+                int[] cannonStarboard = { 0 , 1 , 0 , 1 , 1 , 0 };
+                int[] cannonPort = { 0 , 1 , 0 , 0 , 1 , 1 };
+                String cannonStatus;
+        
+                System.out.println("Cannon status report!");
+                System.out.print("Starboard Cannons: ");
+                for (int i = 0 ; i < cannonStarboard.length ; ++i) {
+                    if (cannonStarboard[i] == 1) {
+                        cannonStatus = "Ready!";
+                    }
+                    else {
+                        cannonStatus = "Empty!";
+                    }
+                    System.out.print((i+1) + ": " + cannonStatus + " ");
+                }
+                System.out.println("");
+                System.out.print("Port Cannons: ");
+                for (int i = 0 ; i < cannonPort.length ; ++i) {
+                    System.out.print(cannonPort[i] + " ");
+                    if (cannonPort[i] == 1) {
+                        cannonStatus = "Ready!";
+                    }
+                    else {
+                        cannonStatus = "Empty!";
+                    }
+                    System.out.print((i+1) + ": " + cannonStatus + " ");
+                }
+                    System.out.println("");
+            }
+        }
+    </pre>
 </head>
 <body>
     
