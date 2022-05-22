@@ -17,9 +17,8 @@ img {
     width: auto;
     height: auto;
 }
-#container {
+.containe r {
     border-width: 20px ; 
     border-color: black; 
-    background-color: #e9ded6;
-    
+    background-color: #e9ded6; 
 }
