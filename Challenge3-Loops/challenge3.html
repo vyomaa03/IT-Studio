@@ -17,59 +17,63 @@
    </h5>
     <div id="container">
         <pre> import java.util.Scanner;
-            public class IntHistogram {
-               public static void main(String[] args) {
-                  Scanner scnr = new Scanner(System.in);
-                  int numAsterisk;  // Number of asterisks to print
-                  int i;           
-            
-                  numAsterisk = 0;
-            
-                  while (numAsterisk >= 0) {
-                     System.out.print("Enter an integer (negative to quit): ");
-                     numAsterisk = scnr.nextInt();
-            
-                     if (numAsterisk >= 0) {
-                        System.out.println("Depicted graphically:");
-                        for (i = 1; i <= numAsterisk; ++i) {
-                           System.out.print("*");
-                        }
-                        System.out.println("\n");
-                     }
-                  }
-            
-                  System.out.println("Goodbye.");
+
+         public class StarCount {
+            public static void main (String [] args) {
+               Scanner input = new Scanner(System.in);
+               int i;
+               String userWord = input.nextLine();
+               
+               for (i=0 ; i < userWord.length(); i++) {
+                   if (userWord.charAt(i) == 'x') {
+                       System.out.print("x");
+                     break;
+                     
+                   } else {
+                       System.out.print("*");
+                   }
+                   }
                }
+               
             }
         </pre>
     </div>
-    <p>We know that the constillation we need to follow forms a line but.. can you map it for us?</p>
+    <p>We know that the constillation we need to follow form a line but.. can you map it for us?
+       We know from our old endevours that the sequence of letters is "theyXbfxh". map it!
+    </p>
 
     <div class="answer">
         <pre>
+           ***x***
         </pre>
     </div> 
     <div class="buttons">
-       <a href="correct_answer.html">Answer 1</a>
+       <a href="wrong_answer.html">Answer 1</a>
     </div>
 
     <div class="answer">
-        <pre></pre>
+        <pre>
+           **X****
+        </pre>
     </div>
     <div class="buttons">
        <a href="wrong_answer.html">Answer 2</a>
     </div>
     <div class="answer">
-        <pre></pre>
+        <pre>
+           *******
+        </pre>
     </div>
     <div class="buttons">
        <a href="wrong_answer.html">Answer 3</a>
     </div>    
     <div class="answer">
-        <pre></pre>
+        <pre>
+           *******x
+        </pre>
     </div>
     <div class="buttons">
-       <a href="wrong_answer.html">Answer 4</a>
+       <a href="correct_answer.html">Answer 4</a>
     </div>
 </body>
 </html>
